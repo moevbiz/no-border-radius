@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "border-radius-zero",
+    "version": "1.0",
+  
+    "description": "Removes round corners on all elements on a website",
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "web_accessible_resources": [
+        "locations.txt"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["script.js"],
+        "run_at": "document_end"
+      }
+    ]
+}
