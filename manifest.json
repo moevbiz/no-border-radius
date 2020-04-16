@@ -6,8 +6,19 @@
     "description": "Removes round corners on all elements on a website",
 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
 
     "web_accessible_resources": [
         "locations.txt"

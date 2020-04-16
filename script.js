@@ -1,5 +1,3 @@
-var file = chrome.runtime.getURL('locations.txt')
-
 var style = `
     * {
         border-radius: 0!important;
@@ -12,17 +10,13 @@ function addStyle(styleString) {
     document.head.append(style);
 }
 
-fetch(file)
-  .then((response) => response.text())
-  .then(data => {
-    const locations = data.split(/\r?\n/)
-    console.log(locations)
-
-    locations.forEach(function(loc) {
+chrome.storage.local.get(null, function(obj) {
+    let locStore = obj['locations']
+    console.log(locStore)
+    locStore.forEach(function(loc) {
         if (window.location.href.indexOf(loc) > 0) {
             console.log('match loc')
             addStyle(style);
         }
     })
-    
-})
+});
