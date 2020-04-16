@@ -12,6 +12,7 @@ chrome.storage.local.get(null, function(obj) {
         createListEntry(input.value)
         locStore.push(input.value)
         chrome.storage.local.set({'locations': locStore})
+        input.value = ""
     })
 })
 
