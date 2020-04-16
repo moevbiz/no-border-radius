@@ -2,6 +2,10 @@
     "manifest_version": 2,
     "name": "no-border-radius",
     "version": "1.0",
+
+    "icons": {
+        "64": "icon.png"
+    },
   
     "description": "Removes round corners on all elements on a website",
 
@@ -17,7 +21,7 @@
 
     "options_ui": {
         "page": "options.html",
-        "open_in_tab": false
+        "open_in_tab": true
     },
 
     "web_accessible_resources": [
