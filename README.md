@@ -1,3 +1,4 @@
+![icon](https://github.com/moevbiz/no-border-radius/blob/master/icon.png?raw=true "Icon")
 # no-border-radius
 Browser extension to remove border radius on specified websites
 
