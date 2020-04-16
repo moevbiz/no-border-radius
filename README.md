@@ -19,6 +19,7 @@ visit the options page to add to this list or remove entries.
 - [x] manage websites directly from extension
 - [x] style the options page
 - [ ] give option to apply styles to all websites
-- [ ] add icons for the extension
+- [x] add icon for the extension
+- [ ] add better icon
 - [ ] give the extension a better name
 - [ ] publish extension
