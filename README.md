@@ -9,6 +9,11 @@ while the extension is not published, see the following guides for manually inst
 - Chrome: https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/
 - Firefox: https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/
 
+## How to use
+
+The extension will remove border-radius by default on `instagram.com`, `twitter.com` and `facebook.com`.
+visit the options page to add to this list or remove entries.
+
 ## todo
 - [x] manage websites directly from extension
 - [ ] add icons for the extension
