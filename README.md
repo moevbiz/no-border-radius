@@ -11,6 +11,6 @@ while the extension is not published, see the following guides for manually inst
 
 ## todo
 - [x] manage websites directly from extension
-- [ ] add icons
+- [ ] add icons for the extension
 - [ ] give the extension a better name
 - [ ] publish extension
