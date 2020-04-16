@@ -12,7 +12,6 @@ function addStyle(styleString) {
 
 chrome.storage.local.get(null, function(obj) {
     let locStore = obj['locations']
-    console.log(locStore)
     locStore.forEach(function(loc) {
         if (window.location.href.indexOf(loc) > 0) {
             console.log('match loc')
