@@ -28,7 +28,7 @@ function createListEntry(loc, locStore) {
             }
         })
     let li = document.createElement('li')
-    li.innerHTML = loc
+    li.innerHTML = `<span>${loc}</span>`
     li.appendChild(button)
     ul.appendChild(li)
 }

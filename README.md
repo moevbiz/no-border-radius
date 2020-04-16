@@ -16,7 +16,7 @@ visit the options page to add to this list or remove entries.
 
 ## todo / ideas
 - [x] manage websites directly from extension
-- [ ] style the options page
+- [x] style the options page
 - [ ] give option to apply styles to all websites
 - [ ] add icons for the extension
 - [ ] give the extension a better name
