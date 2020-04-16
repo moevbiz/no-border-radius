@@ -16,6 +16,7 @@ visit the options page to add to this list or remove entries.
 
 ## todo
 - [x] manage websites directly from extension
+- [ ] style the options page
 - [ ] add icons for the extension
 - [ ] give the extension a better name
 - [ ] publish extension
