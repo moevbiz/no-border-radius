@@ -21,5 +21,6 @@ visit the options page to add to this list or remove entries.
 - [ ] give option to apply styles to all websites
 - [x] add icon for the extension
 - [ ] add better icon
+- [ ] better code
 - [ ] give the extension a better name
 - [ ] publish extension
