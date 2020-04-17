@@ -17,7 +17,7 @@ into the document header of all websites specified in the extension options.
 
 #### advanced
 
-The extension makes use of the `chrome.storage` API. It matches url strings using `indexOf(loc) > 0`, so the entry `instagram.com` will override styles on `www.instagram.com`, `instagram.com/userprofile` and `anotherwebsite.com/?instagram.com`. This means you could likely apply the styling to *all websites* by adding a dot (".") to the list, although this is not recommended. You could also extend the application by forking this repo and changing the `style` variable inside `scripts.js`.
+The extension makes use of the `chrome.storage` API. It matches url strings using `indexOf(loc) > 0`, so the entry `instagram.com` will override styles on `www.instagram.com`, `instagram.com/userprofile` and `anotherwebsite.com/?instagram.com`. This means you could enable the extension on *all websites* by simply adding a dot (`.`) to the list, although this is not recommended. You could also extend the application by forking this repo and changing the `style` variable inside `scripts.js`.
 
 ## Installation
 
