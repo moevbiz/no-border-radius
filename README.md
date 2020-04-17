@@ -4,6 +4,21 @@ Browser extension to remove border radius on specified websites
 
 ![preview](https://github.com/moevbiz/no-border-radius/blob/master/Bildschirmfoto%202020-04-16%20um%2011.10.28.png?raw=true "Preview Image")
 
+## how it works
+The extension will override all `border-radius` properties by inserting
+```
+<style>
+* {
+  border-radius: 0!important;
+}
+</style>
+```
+into the document header of all websites specified in the extension options. 
+
+#### advanced
+
+The extension makes use of the `chrome.storage` API. It matches url strings against a regex pattern, so the entry "instagram.com" will override styles on "www.instagram.com", "instagram.com/userprofile" and "anotherwebsite.com/?instagram.com". This means you could likely apply the styling to *all* websites by adding a dot (".") to the list, although this is not recommended. You could also extend the application by forking this repo and changing the `style` variable inside `scripts.js`.
+
 ## Installation
 
 while the extension is not published, see the following guides for manually installing extensions:
