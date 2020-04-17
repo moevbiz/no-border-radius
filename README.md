@@ -30,10 +30,7 @@ while the extension is not published, see the following guides for manually inst
 The extension will remove border-radius by default on `instagram.com`, `twitter.com` and `facebook.com`.
 visit the options page to add to this list or remove entries.
 
-## todo / ideas
-- [x] manage websites directly from extension
-- [x] style the options page
-- [x] add icon for the extension
+## Todo / Ideas
 - [ ] add better icon?
 - [ ] find a better name?
 - [ ] publish extension
