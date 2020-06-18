@@ -27,8 +27,8 @@ while the extension is not published, see the following guides for manually inst
 
 ## How to use
 
-The extension will remove border-radius by default on `instagram.com`, `twitter.com` and `facebook.com`.
-visit the options page to add to this list or remove entries.
+The extension will remove border-radius by default on some pages, including `instagram.com`, `twitter.com` and `facebook.com`.
+visit the options page to view the entire list, and to add or remove entries.
 
 ## Todo / Ideas
 - [ ] add better icon?
